@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Archivos locales del sistema y pruebas
+.DS_Store
+Thumbs.db
+verificacion_local.ipynb
+
+# Datos grandes descargados localmente
+datos_locales/
