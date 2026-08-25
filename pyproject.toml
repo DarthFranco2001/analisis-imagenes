@@ -1,0 +1,17 @@
+[project]
+name = "analisis-imagenes"
+version = "0.1.0"
+description = "Tareas y proyectos del curso de Análisis de Imágenes"
+requires-python = "==3.13.15"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+    "opencv-python>=5.0.0.93",
+    "pillow>=12.3.0",
+]
+
+[tool.uv]
+required-version = "==0.12.5"
+python-preference = "managed"
