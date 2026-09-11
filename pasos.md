@@ -214,7 +214,7 @@ def convolucion_1d_numpy(img, kernel_1d, eje):
     img = img.astype(np.float64)
 
     # Convertimos el kernel a un vector NumPy.
-    kernel = np.asarray(kernel_1d, dtype=np.float64).ravel()
+    kernel = np.asarray(kernel_1d, dtype=np.float64)
 
     # Tamaño del kernel.
     K = kernel.size
